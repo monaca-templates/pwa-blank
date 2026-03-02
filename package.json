@@ -1,13 +1,17 @@
 {
   "name": "monaca-pwa-template-minimum",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "displayName": "Monaca PWA Template Minimum",
+  "engines": {
+    "node": ">=20.17"
+  },
   "dependencies": {},
   "scripts": {
     "monaca:preview": "npm run dev",
     "dev": "browser-sync start --no-open -s www/ --watch --port 8080 --ui-port 8081"
   },
   "devDependencies": {
-    "browser-sync": "~2.27.7"
+    "browser-sync": "~2.27.7",
+    "cordova": "^13.0.0"
   }
 }
